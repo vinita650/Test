@@ -1,0 +1,17 @@
+{
+  "name": "tcs-asessment",
+  "version": "1.0.0",
+  "description": "this is the first express server ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpileOnly app.js",
+    "start": "tsc && node app.js"
+  },
+  "author": "vinita",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.17.1"
+  }
+}
